@@ -24,7 +24,8 @@ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 """
 import pyjq
 from abc import ABCMeta
-from netaddr import IPNetwork, IPAddress
+#from netaddr import IPNetwork, IPAddress
+from ipaddr import IPNetwork, IPAddress
 from six import add_metaclass
 from shared.query import query_aws, get_parameter_file
 
